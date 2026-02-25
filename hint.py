@@ -23,6 +23,11 @@ def get_hint():
 # Varies how close the numbers are on "number is between x and y"
     num_variation_low = number - random.randint(1 , 10)
     num_variation_high = number + random.randint(1 , 10)
+    if number < 20:
+        num_variation_low = 10
+        
+    if number > 89:
+        num_variation_high = 99
     
 
 #sets the numbers for the "first/second number os x, y, or z"
@@ -52,7 +57,7 @@ def get_hint():
 
         f"You get the feeling that one of the numbers is {second}.",
         
-        f"You get the feeling that the number is greater than {num_variation_low} and less than {num_variation_high}",
+        f"You get the feeling that the number is between {num_variation_low} and {num_variation_high}",
 
         f"You get the feeling that the first number is {first_eo}.",
 

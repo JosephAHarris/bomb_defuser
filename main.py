@@ -8,8 +8,6 @@ def main():
     print("")
     print("The bomb can be disarmed by inputting the correct number from 10-99.")
     print("")
-    print("You have 6 attempts before the bomb blows!")
-    print("")
     guess_num()
 
 main()
