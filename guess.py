@@ -27,17 +27,18 @@ def guess_num():
                 if number < guess:
                     attempts -= 1
                     print(f"You have a hunch that the number lower than {guess}")
-                    
+                    print("")                    
 
                 if number > guess:
                     attempts -= 1
                     print(f"you have a hunch that the number is higher than {guess}")
+                    print("")
                     
                 
                 if number == guess:
                     print(f"You did it! You disarmed the bomb!")
                     break
-                
+
                 if attempts < 1:
                     print("The bomb goes off! You see a bright flash, then nothing. Game Over.")
                     break
@@ -46,3 +47,4 @@ def guess_num():
             if guess.lower() == "h":
                 continue
             print("Invalid input.")
+            print("")

@@ -10,7 +10,7 @@ def main():
     print("")
     print("You have 6 guesses before the bomb blows!")
     print("")
-    print("You may use a guess to receive a hint by pressing 'H'. You can also try to run by press 'Q' ")
+    print("You may use a guess to receive a hint by pressing 'H'. You can also try to run by pressing 'Q'.")
     print("")
     guess_num()
 
