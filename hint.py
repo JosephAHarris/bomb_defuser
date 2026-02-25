@@ -66,6 +66,4 @@ def get_hint():
 
     hnt_num = hnt.pop()
     print(hint_list[hnt_num])
-    
-    print(f"debugging:{first} and {second} ")
     print("")
