@@ -8,9 +8,7 @@ def main():
     print("")
     print("The bomb can be disarmed by inputting the correct number from 10-99.")
     print("")
-    print("You have 6 guesses before the bomb blows!")
-    print("")
-    print("You may use a guess to receive a hint by pressing 'H'. You can also try to run by pressing 'Q'.")
+    print("You have 6 attempts before the bomb blows!")
     print("")
     guess_num()
 

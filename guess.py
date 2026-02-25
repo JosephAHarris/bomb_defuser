@@ -7,7 +7,8 @@ def guess_num():
     
     while True:
       
-        guess = input(f"{attempts} attempts left. Type a number to guess or press H for a hint: ")        
+        guess = input(f"{attempts} attempts left. Type a number to guess, press H for a hint, or press Q to run: ")
+        print("")     
         try:
             
             if guess.lower() == "h":
