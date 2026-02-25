@@ -27,7 +27,7 @@ def get_hint():
 
 #sets the numbers for the "first/second number os x, y, or z"
     first_span = ((first - 1), first, (first +1))
-    if first == 0:
+    if first == 1:
         first_span = (1, 2, 3)
     if first == 9:
         first_span = (7, 8 ,9)
